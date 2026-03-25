@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Методы развития
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Практические техники и упражнения</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Медитация и майндфулнес",
+              description: "Регулярная практика осознанности тренирует способность удерживать фокус и возвращать внимание",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Метод Помодоро",
+              description: "25 минут концентрированной работы + 5 минут отдыха — структурированный режим для мозга",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Физическая активность",
+              description: "Аэробные нагрузки усиливают нейропластичность и улучшают когнитивные функции",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Когнитивные тренажёры",
+              description: "Упражнения на память, счёт, чтение и задачи на переключение внимания",
               direction: "bottom",
             },
           ].map((service, i) => (
